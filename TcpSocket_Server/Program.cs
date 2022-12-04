@@ -13,7 +13,7 @@ try
         await using var stream = tcpClient.GetStream();
         //Using own static method to deserialize data in order to deal with message framing
         var deserealizedPerson = DeserializeHelper.Deserealize(stream);
-        //Using another static method to write person's name and it's message in console
+        //Using another static method to write person's name and message in console
         DeserializeHelper.WriteMessage(deserealizedPerson.Result);
     }
 }
