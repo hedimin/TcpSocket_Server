@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZEJRtOM0jBHPfC6Wh/2HpUR1t34sAZkgBpleOc2v4lumK/fuGeVa0UQ2ThG8gI8yaEKPPIYKG0k8lS7oH57a3Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Дмитро\\RiderProjects\\TcpSocket\\TcpSocket_Server\\TcpSocket_Server.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Дмитро\\.nuget\\packages\\messagepack\\2.4.59\\messagepack.2.4.59.nupkg.sha512",
+    "C:\\Users\\Дмитро\\.nuget\\packages\\messagepack.annotations\\2.4.59\\messagepack.annotations.2.4.59.nupkg.sha512",
+    "C:\\Users\\Дмитро\\.nuget\\packages\\microsoft.net.stringtools\\17.4.0\\microsoft.net.stringtools.17.4.0.nupkg.sha512",
+    "C:\\Users\\Дмитро\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\Дмитро\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

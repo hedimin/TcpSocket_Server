@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TcpSocket_Server", "TcpSocket_Server\TcpSocket_Server.csproj", "{342DF358-22D1-41FE-AFFB-31AE4D592BCB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TcpSocket_Server.IntegrationTests", "TcpSocket_Server.IntegrationTests\TcpSocket_Server.IntegrationTests.csproj", "{9C0580FC-5608-495A-8D0A-9096DBB6C42F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{342DF358-22D1-41FE-AFFB-31AE4D592BCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{342DF358-22D1-41FE-AFFB-31AE4D592BCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{342DF358-22D1-41FE-AFFB-31AE4D592BCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{342DF358-22D1-41FE-AFFB-31AE4D592BCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C0580FC-5608-495A-8D0A-9096DBB6C42F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C0580FC-5608-495A-8D0A-9096DBB6C42F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C0580FC-5608-495A-8D0A-9096DBB6C42F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C0580FC-5608-495A-8D0A-9096DBB6C42F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
