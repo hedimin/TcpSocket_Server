@@ -9,10 +9,13 @@ try
     {
         //Accepting connections from the clients
         using var tcpClient = await tcpListener.AcceptTcpClientAsync();
+        
         //Getting stream to deserialize data
         await using var stream = tcpClient.GetStream();
+        
         //Using own static method to deserialize data in order to deal with message framing
         var deserealizedPerson = DeserializeHelper.Deserealize(stream);
+        
         //Using another static method to write person's name and message in console
         DeserializeHelper.WriteMessage(deserealizedPerson.Result);
     }

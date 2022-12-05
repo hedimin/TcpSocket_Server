@@ -12,8 +12,10 @@ public class Tests
     {
         //Arrange
         using TcpClient tcpClient = new TcpClient();
+        
         //Act
         tcpClient.Connect("127.1.199.250",8888);
+        
         //Assert
         Assert.That(tcpClient.Connected, Is.EqualTo(true));
     }
@@ -24,6 +26,7 @@ public class Tests
         //Arrange
         using TcpClient tcpClient = new TcpClient();
         await tcpClient.ConnectAsync("127.1.199.150",8888);
+        
         //Act
         try
         {
