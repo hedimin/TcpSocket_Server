@@ -1,5 +1,11 @@
 # TcpSocket_Server
-This is a server that uses TCP/IP socket type. It takes data from the client and deserealizes it to the custom type Person, that has two fields: Name and Message. 
+This is a server that uses TCP/IP socket type.
+
+# Working principle
+![Діаграма без назви drawio (1)](https://user-images.githubusercontent.com/112476754/205777807-ee876cb0-914d-4360-b031-40a949aefa3d.png)
+
+# How it works?
+Server takes data from the client and deserealizes it to the custom type Person, that has two fields: Name and Message. 
 
 Server accepts any IP adress and 8888 port number:
 ```C#
